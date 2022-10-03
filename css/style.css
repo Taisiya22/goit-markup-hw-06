@@ -212,13 +212,10 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--hover-hero-button);
-  
 }
 .hero-btn:active {
   background-color: var(--hover-hero-button);
-  
 }
-
 .overlay {
   max-width: 1600px;
   height: 600px;
@@ -522,7 +519,7 @@ background-color: var(--accent-color);
   margin-left: 10px;
 }
 
-.field-form {
+.sign-form-field {
   display: flex;
   margin-top: 20px;
 }
@@ -536,8 +533,7 @@ background-color: var(--accent-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-text-color);
-}
-
+} 
 .sign-input {
   padding-left: 15px;
   margin-right: 12px;
@@ -708,7 +704,6 @@ margin-bottom: 10px;
 }
 .checkbox:checked + .check-icon>.check {
   opacity: 1;
-  fill: var(--accent-color);
 }
 .checkbox-label {
   text-align: center;
